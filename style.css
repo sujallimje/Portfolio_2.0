@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    background-color: #6528F7;
+    display: block;
+    position: relative;
+}
+
+.home {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0px;
+}
+
+.homeleft {
+    padding-top: 5%;
+    font-family: 'Pacifico', cursive;
+    color: #EDE4FF;
+    text-align: center;
+    font-size: 5rem;
+
+}
+
+.homeright {
+    margin: 30px;
+}
+
+#sub {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #5e27e0;
+    color: #D7BBF5;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.right ul {
+    display: flex;
+    gap: 30px;
+
+}
+
+.right ul li {
+    list-style-type: none;
+}
+
+.right ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.right ul li a:hover {
+    font-size: 1.3rem;
+    color: #D7BBF5;
+}
+
+main hr {
+    border: 0;
+    height: 1.1px;
+    margin: 77px 84px;
+    background: white;
+}
+.scroll{
+    text-align: center;
+    color: white;
+}
+.secondSection{
+    background-color: white;
+    /* height: 80vh; */
+}
+.secondSection h2{
+    padding: 20px 30px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 4rem;
+    color: #A076F9;
+}
+.lang img{
+    height: 150px;
+}
+.lang{
+    background-color: #EDE4FF;
+    color: #6528F7;
+    margin: 30px 20px;
+    padding: 30px 20px;
+    text-align : center;
+    font-family: 'EB Garamond', serif;  
+    font-size: 1.2rem;
+}
+
+.secondBoxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+/* .lang:hover{
+    font-size:1.3em ;
+     ;
+} */
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+    background-color: #5e27e0;
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+    color: #EDE4FF;
+
+}
+.foot-left{
+    align-self: center;
+}
+.foot-right ul{
+    
+    display: flex;
+    justify-content: space-around ;
+    gap: 30px;
+    margin: 20px 20px;
+}
+.foot-right li{
+    list-style-type: none;
+
+}
+.thir{
+    height: 50px;
+}
+footer p{
+    text-align: center;
+}
